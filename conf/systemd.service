@@ -39,7 +39,7 @@ Environment="MICROBIN_MAX_FILE_SIZE_ENCRYPTED_MB=256"
 Environment="MICROBIN_MAX_FILE_SIZE_UNENCRYPTED_MB=2048"
 Environment="MICROBIN_DISABLE_TELEMETRY=true"
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/microbin --editable --highlightsyntax
+ExecStart=__INSTALL_DIR__/microbin
 
 ### Depending on specificities of your service/app, you may need to tweak these
 ### .. but this should be a good baseline
