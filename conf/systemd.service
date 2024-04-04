@@ -16,7 +16,7 @@ Environment="MICROBIN_DATA_DIR=__DATA_DIR__
 Environment="MICROBIN_JSON_DB=false"
 Environment="MICROBIN_EDITABLE=true"
 Environment="MICROBIN_HIDE_HEADER=false"
-Environment="MICROBIN_HIDE_FOOTER=false"
+Environment="MICROBIN_HIDE_FOOTER=true"
 Environment="MICROBIN_HIDE_LOGO=false"
 Environment="MICROBIN_NO_LISTING=false"
 Environment="MICROBIN_READONLY=false"
@@ -39,7 +39,7 @@ Environment="MICROBIN_MAX_FILE_SIZE_ENCRYPTED_MB=256"
 Environment="MICROBIN_MAX_FILE_SIZE_UNENCRYPTED_MB=2048"
 Environment="MICROBIN_DISABLE_TELEMETRY=true"
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/microbin --editable --highlightsyntax
+ExecStart=__INSTALL_DIR__/microbin
 
 ### Depending on specificities of your service/app, you may need to tweak these
 ### .. but this should be a good baseline
