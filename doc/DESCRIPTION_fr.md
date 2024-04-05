@@ -1,1 +1,1 @@
-MicroBin est une application Web super petite, riche en fonctionnalités, configurable, autonome et auto-hébergée. Il est très simple à configurer et à utiliser et ne nécessitera que quelques mégaoctets de mémoire et de stockage sur disque.
+MicroBin est une application Web riche en fonctionnalités, configurable, autonome et auto-hébergée. Elle est très simple à configurer et à utiliser et ne nécessitera que quelques mégaoctets de mémoire et de stockage sur disque.
