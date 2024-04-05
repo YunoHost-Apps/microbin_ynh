@@ -3,7 +3,7 @@
 packaging_format = 2
 
 id = "microbin"
-name = "Microbin"
+name = "MicroBin"
 description.en = "Configurable file-sharing and URL shortening web app"
 description.fr = "Application Web sécurisée et configurable de partage de fichiers et de raccourcissement d'URL"
 
