@@ -3,15 +3,15 @@ Ohart ongi: README hau automatikoki sortu da <https://github.com/YunoHost/apps/t
 EZ editatu eskuz.
 -->
 
-# Microbin YunoHost-erako
+# MicroBin YunoHost-erako
 
 [![Integrazio maila](https://dash.yunohost.org/integration/microbin.svg)](https://dash.yunohost.org/appci/app/microbin) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/microbin.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/microbin.maintain.svg)
 
-[![Instalatu Microbin YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=microbin)
+[![Instalatu MicroBin YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=microbin)
 
 *[Irakurri README hau beste hizkuntzatan.](./ALL_README.md)*
 
-> *Pakete honek Microbin YunoHost zerbitzari batean azkar eta zailtasunik gabe instalatzea ahalbidetzen dizu.*  
+> *Pakete honek MicroBin YunoHost zerbitzari batean azkar eta zailtasunik gabe instalatzea ahalbidetzen dizu.*  
 > *YunoHost ez baduzu, kontsultatu [gida](https://yunohost.org/install) nola instalatu ikasteko.*
 
 ## Aurreikuspena
@@ -24,7 +24,7 @@ MicroBin is a super tiny, feature rich, configurable, self-contained and self-ho
 
 ## Pantaila-argazkiak
 
-![Microbin(r)en pantaila-argazkia](./doc/screenshots/screenshot7.png)
+![MicroBin(r)en pantaila-argazkia](./doc/screenshots/screenshot7.png)
 
 ## Dokumentazioa eta baliabideak
 
