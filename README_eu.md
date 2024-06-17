@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 MicroBin is a super tiny, feature rich, configurable, self-contained and self-hosted paste bin web application. It is very easy to set up and use, and will only require a few megabytes of memory and disk storage.
 
-**Paketatutako bertsioa:** 2.0.4~ynh1
+**Paketatutako bertsioa:** 2.0.4~ynh2
 
 **Demoa:** <https://pub.microbin.eu/>
 

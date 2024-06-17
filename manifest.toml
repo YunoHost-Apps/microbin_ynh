@@ -7,7 +7,7 @@ name = "MicroBin"
 description.en = "Configurable file-sharing and URL shortening web app"
 description.fr = "Application Web sécurisée et configurable de partage de fichiers et de raccourcissement d'URL"
 
-version = "2.0.4~ynh1"
+version = "2.0.4~ynh2"
 
 maintainers = ["eric_G"]
 
@@ -55,6 +55,8 @@ ram.runtime = "50M"
     in_subdir = false
     url = "https://github.com/szabodanika/microbin/releases/download/v2.0.4/microbin-v2.0.4-x86_64-unknown-linux-musl.tar.gz"
     sha256 = "ccfc69c5ab33cc79c56da0cea55e68a5b93f19fd68ac028a00e9d09bcf5575b6"
+
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
