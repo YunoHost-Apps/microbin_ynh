@@ -18,7 +18,7 @@
 
 MicroBin is a super tiny, feature rich, configurable, self-contained and self-hosted paste bin web application. It is very easy to set up and use, and will only require a few megabytes of memory and disk storage.
 
-**分发版本：** 2.0.4~ynh1
+**分发版本：** 2.0.4~ynh2
 
 **演示：** <https://pub.microbin.eu/>
 
