@@ -4,7 +4,6 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
-# Keep this path for calling _common.sh inside the execution's context of backup and restore scripts
 source ../settings/scripts/_common.sh
 source /usr/share/yunohost/helpers
 
@@ -24,7 +23,6 @@ ynh_script_progression "Restoring the data directory..."
 
 ynh_restore "$data_dir"
 
-### (Same as for install dir)
 chown -R "$app:www-data" "$data_dir"
 
 #=================================================
@@ -44,7 +42,6 @@ yunohost service add "$app" --description="Configurable file-sharing app" --log=
 #=================================================
 ynh_script_progression "Reloading NGINX web server and $app's service..."
 
-### Typically you only have either $app or php-fpm but not both at the same time...
 ynh_systemctl --service="$app" --action="start"
 
 ynh_systemctl --service=nginx --action=reload
