@@ -19,7 +19,8 @@ code = "https://github.com/szabodanika/microbin"
 fund = "https://ko-fi.com/dani_sz"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.16"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
