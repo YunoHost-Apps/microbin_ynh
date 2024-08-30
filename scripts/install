@@ -21,7 +21,7 @@ ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir="$install_dir"
 
-chown -R "$app:www-data" "$install_dir"
+#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R "$app:www-data" "$install_dir"
 chmod +x "$install_dir/microbin"
 
 #=================================================
@@ -31,8 +31,8 @@ ynh_script_progression "Adding $app's configuration files..."
 
 ynh_config_add --template=".env" --destination="$install_dir/.env"
 
-chmod 400 "$install_dir/.env"
-chown "$app:$app" "$install_dir/.env"
+#REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod 400 "$install_dir/.env"
+#REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown "$app:$app" "$install_dir/.env"
 
 #=================================================
 # SYSTEM CONFIGURATION
@@ -51,7 +51,7 @@ yunohost service add "$app" --description="Configurable file-sharing app" --log=
 ynh_script_progression "Starting $app's systemd service..."
 
 # Start a systemd service
-ynh_systemctl --service="$app" --action="start"
+ynh_systemctl  --action="start"
 
 #=================================================
 # END OF SCRIPT
