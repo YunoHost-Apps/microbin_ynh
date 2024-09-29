@@ -1,9 +1,5 @@
 #!/bin/bash
 
-#=================================================
-# IMPORT GENERIC HELPERS
-#=================================================
-
 source _common.sh
 source /usr/share/yunohost/helpers
 
@@ -21,7 +17,6 @@ ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir="$install_dir"
 
-chown -R "$app:www-data" "$install_dir"
 chmod +x "$install_dir/microbin"
 
 #=================================================
@@ -30,9 +25,6 @@ chmod +x "$install_dir/microbin"
 ynh_script_progression "Adding $app's configuration files..."
 
 ynh_config_add --template=".env" --destination="$install_dir/.env"
-
-chmod 400 "$install_dir/.env"
-chown "$app:$app" "$install_dir/.env"
 
 #=================================================
 # SYSTEM CONFIGURATION
@@ -50,8 +42,7 @@ yunohost service add "$app" --description="Configurable file-sharing app" --log=
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-# Start a systemd service
-ynh_systemctl --service="$app" --action="start"
+ynh_systemctl  --action="start"
 
 #=================================================
 # END OF SCRIPT

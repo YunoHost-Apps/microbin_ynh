@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # MicroBin pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/microbin.svg)](https://dash.yunohost.org/appci/app/microbin) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/microbin.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/microbin.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/microbin.svg)](https://ci-apps.yunohost.org/ci/apps/microbin/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/microbin.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/microbin.maintain.svg)
 
 [![Installer MicroBin avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=microbin)
 
@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 MicroBin est une application Web riche en fonctionnalités, configurable, autonome et auto-hébergée. Elle est très simple à configurer et à utiliser et ne nécessitera que quelques mégaoctets de mémoire et de stockage sur disque.
 
-**Version incluse :** 2.0.4~ynh2
+**Version incluse :** 2.0.4~ynh3
 
 **Démo :** <https://pub.microbin.eu/>
 
