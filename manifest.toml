@@ -7,7 +7,7 @@ name = "MicroBin"
 description.en = "Configurable file-sharing and URL shortening web app"
 description.fr = "Partage de fichiers et de raccourcissement d'URL"
 
-version = "2.0.4~ynh3"
+version = "2.0.4~ynh4"
 
 maintainers = ["eric_G"]
 
@@ -21,7 +21,7 @@ fund = "https://ko-fi.com/dani_sz"
 [integration]
 yunohost = ">= 11.2.30"
 helpers_version = "2.1"
-architectures = "all"
+architectures = ["amd64", "arm64"]
 multi_instance = true
 
 ldap = false
