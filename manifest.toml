@@ -54,8 +54,10 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    url = "https://github.com/szabodanika/microbin/releases/download/v2.0.4/microbin-v2.0.4-x86_64-unknown-linux-musl.tar.gz"
-    sha256 = "ccfc69c5ab33cc79c56da0cea55e68a5b93f19fd68ac028a00e9d09bcf5575b6"
+    amd64.url = "https://github.com/szabodanika/microbin/releases/download/v2.0.4/microbin-v2.0.4-x86_64-unknown-linux-musl.tar.gz"
+    amd64.sha256 = "ccfc69c5ab33cc79c56da0cea55e68a5b93f19fd68ac028a00e9d09bcf5575b6"
+    arm64.url = "https://github.com/szabodanika/microbin/releases/download/v2.0.4/microbin-v2.0.4-aarch64-unknown-linux-musl.tar.gz"
+    arm64.sha256 = "03dfdc68e277296ca050fc4e3a83809d5e6167bf2da110efbe0cc00f58e0008a"
 
     autoupdate.strategy = "latest_github_tag"
 
