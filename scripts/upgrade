@@ -42,7 +42,7 @@ yunohost service add "$app" --description="Configurable file-sharing app" --log=
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl  --action="start"
+ynh_systemctl --action="start"
 
 #=================================================
 # END OF SCRIPT
