@@ -20,7 +20,7 @@ Il NE doit PAS être modifié à la main.
 
 MicroBin est une application Web riche en fonctionnalités, configurable, autonome et auto-hébergée. Elle est très simple à configurer et à utiliser et ne nécessitera que quelques mégaoctets de mémoire et de stockage sur disque.
 
-**Version incluse :** 2.0.4~ynh3
+**Version incluse :** 2.0.4~ynh4
 
 **Démo :** <https://pub.microbin.eu/>
 
