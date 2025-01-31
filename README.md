@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # MicroBin for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/microbin.svg)](https://ci-apps.yunohost.org/ci/apps/microbin/) ![Working status](https://ci-apps.yunohost.org/ci/badges/microbin.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/microbin.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/microbin)](https://ci-apps.yunohost.org/ci/apps/microbin/)
+![Working status](https://apps.yunohost.org/badge/state/microbin)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/microbin)
 
 [![Install MicroBin with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=microbin)
 

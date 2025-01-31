@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # MicroBin untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/microbin.svg)](https://ci-apps.yunohost.org/ci/apps/microbin/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/microbin.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/microbin.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/microbin)](https://ci-apps.yunohost.org/ci/apps/microbin/)
+![Status kerja](https://apps.yunohost.org/badge/state/microbin)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/microbin)
 
 [![Pasang MicroBin dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=microbin)
 

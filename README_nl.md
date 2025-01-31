@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # MicroBin voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/microbin.svg)](https://ci-apps.yunohost.org/ci/apps/microbin/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/microbin.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/microbin.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/microbin)](https://ci-apps.yunohost.org/ci/apps/microbin/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/microbin)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/microbin)
 
 [![MicroBin met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=microbin)
 

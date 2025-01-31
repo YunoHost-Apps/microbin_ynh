@@ -5,7 +5,9 @@
 
 # MicroBin для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/microbin.svg)](https://ci-apps.yunohost.org/ci/apps/microbin/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/microbin.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/microbin.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/microbin)](https://ci-apps.yunohost.org/ci/apps/microbin/)
+![Состояние работы](https://apps.yunohost.org/badge/state/microbin)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/microbin)
 
 [![Установите MicroBin с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=microbin)
 

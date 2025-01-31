@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # MicroBin YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/microbin.svg)](https://ci-apps.yunohost.org/ci/apps/microbin/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/microbin.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/microbin.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/microbin)](https://ci-apps.yunohost.org/ci/apps/microbin/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/microbin)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/microbin)
 
 [![Instalatu MicroBin YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=microbin)
 
