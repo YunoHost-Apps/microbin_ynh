@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # MicroBin untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/microbin.svg)](https://ci-apps.yunohost.org/ci/apps/microbin/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/microbin.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/microbin.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/microbin)](https://ci-apps.yunohost.org/ci/apps/microbin/)
+![Status kerja](https://apps.yunohost.org/badge/state/microbin)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/microbin)
 
 [![Pasang MicroBin dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=microbin)
 
@@ -18,7 +20,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 MicroBin is a super tiny, feature rich, configurable, self-contained and self-hosted paste bin web application. It is very easy to set up and use, and will only require a few megabytes of memory and disk storage.
 
-**Versi terkirim:** 2.0.4~ynh3
+**Versi terkirim:** 2.0.4~ynh4
 
 **Demo:** <https://pub.microbin.eu/>
 

@@ -34,7 +34,7 @@ yunohost service add "$app" --description="Configurable file-sharing app" --log=
 #=================================================
 ynh_script_progression "Reloading NGINX web server and $app's service..."
 
-ynh_systemctl  --action="start"
+ynh_systemctl --action="start"
 
 ynh_systemctl --service=nginx --action=reload
 

@@ -7,7 +7,7 @@ name = "MicroBin"
 description.en = "Configurable file-sharing and URL shortening web app"
 description.fr = "Partage de fichiers et de raccourcissement d'URL"
 
-version = "2.0.4~ynh3"
+version = "2.0.4~ynh4"
 
 maintainers = ["eric_G"]
 
@@ -19,13 +19,12 @@ code = "https://github.com/szabodanika/microbin"
 fund = "https://ko-fi.com/dani_sz"
 
 [integration]
-yunohost = ">= 11.2.30"
+yunohost = ">= 12.0.9"
 helpers_version = "2.1"
-architectures = "all"
+architectures = ["amd64", "arm64"]
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
@@ -54,8 +53,10 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    url = "https://github.com/szabodanika/microbin/releases/download/v2.0.4/microbin-v2.0.4-x86_64-unknown-linux-musl.tar.gz"
-    sha256 = "ccfc69c5ab33cc79c56da0cea55e68a5b93f19fd68ac028a00e9d09bcf5575b6"
+    amd64.url = "https://github.com/szabodanika/microbin/releases/download/v2.0.4/microbin-v2.0.4-x86_64-unknown-linux-musl.tar.gz"
+    amd64.sha256 = "ccfc69c5ab33cc79c56da0cea55e68a5b93f19fd68ac028a00e9d09bcf5575b6"
+    arm64.url = "https://github.com/szabodanika/microbin/releases/download/v2.0.4/microbin-v2.0.4-aarch64-unknown-linux-musl.tar.gz"
+    arm64.sha256 = "03dfdc68e277296ca050fc4e3a83809d5e6167bf2da110efbe0cc00f58e0008a"
 
     autoupdate.strategy = "latest_github_tag"
 

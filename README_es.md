@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # MicroBin para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/microbin.svg)](https://ci-apps.yunohost.org/ci/apps/microbin/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/microbin.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/microbin.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/microbin)](https://ci-apps.yunohost.org/ci/apps/microbin/)
+![Estado funcional](https://apps.yunohost.org/badge/state/microbin)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/microbin)
 
 [![Instalar MicroBin con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=microbin)
 
@@ -18,7 +20,7 @@ No se debe editar a mano.
 
 MicroBin is a super tiny, feature rich, configurable, self-contained and self-hosted paste bin web application. It is very easy to set up and use, and will only require a few megabytes of memory and disk storage.
 
-**Versión actual:** 2.0.4~ynh3
+**Versión actual:** 2.0.4~ynh4
 
 **Demo:** <https://pub.microbin.eu/>
 
