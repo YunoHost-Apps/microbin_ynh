@@ -7,7 +7,7 @@ name = "MicroBin"
 description.en = "Configurable file-sharing and URL shortening web app"
 description.fr = "Partage de fichiers et de raccourcissement d'URL"
 
-version = "2.0.4~ynh4"
+version = "2.0.4~ynh5"
 
 maintainers = ["eric_G"]
 
@@ -19,7 +19,7 @@ code = "https://github.com/szabodanika/microbin"
 fund = "https://ko-fi.com/dani_sz"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 architectures = ["amd64", "arm64"]
 multi_instance = true
