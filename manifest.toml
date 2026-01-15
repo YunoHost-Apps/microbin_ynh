@@ -7,7 +7,7 @@ name = "MicroBin"
 description.en = "Configurable file-sharing and URL shortening web app"
 description.fr = "Partage de fichiers et de raccourcissement d'URL"
 
-version = "2.0.4~ynh5"
+version = "2.1.0~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -21,7 +21,7 @@ fund = "https://ko-fi.com/dani_sz"
 [integration]
 yunohost = ">= 12.1.17"
 helpers_version = "2.1"
-architectures = ["amd64", "arm64"]
+architectures = "all"
 multi_instance = true
 
 ldap = false
@@ -53,14 +53,20 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    amd64.url = "https://github.com/szabodanika/microbin/releases/download/v2.0.4/microbin-v2.0.4-x86_64-unknown-linux-musl.tar.gz"
-    amd64.sha256 = "ccfc69c5ab33cc79c56da0cea55e68a5b93f19fd68ac028a00e9d09bcf5575b6"
-    arm64.url = "https://github.com/szabodanika/microbin/releases/download/v2.0.4/microbin-v2.0.4-aarch64-unknown-linux-musl.tar.gz"
-    arm64.sha256 = "03dfdc68e277296ca050fc4e3a83809d5e6167bf2da110efbe0cc00f58e0008a"
+    amd64.url = "https://github.com/szabodanika/microbin/releases/download/v2.1.0/microbin-v2.1.0-x86_64-unknown-linux-musl.tar.gz"
+    amd64.sha256 = "3d6285b4520340c0611875916a7b1dbfa880973541f044c3d18efce799725f45"
+    arm64.url = "https://github.com/szabodanika/microbin/releases/download/v2.1.0/microbin-v2.1.0-aarch64-unknown-linux-musl.tar.gz"
+    arm64.sha256 = "d85f2259404587b1b7b6e585d9fc63e53b0253294cd0a96593ecb0355228f88a"
+    armhf.url = "https://github.com/szabodanika/microbin/releases/download/v2.1.0/microbin-v2.1.0-armv7-unknown-linux-musleabihf.tar.gz"
+    armhf.sha256 = "c27a3ce3d1b417d095660aa6c7d4daae1340412374a1824573636fc2d8f90469"
+    i386.url = "https://github.com/szabodanika/microbin/releases/download/v2.1.0/microbin-v2.1.0-i686-unknown-linux-musl.tar.gz"
+    i386.sha256 = "df9a2466d1deba16246e5256d04bf04071bb320e105e97795f53c37be633e86f"
 
-    autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_github_release"
     autoupdate.asset.amd64 = ".*-x86_64-unknown-linux-musl.tar.gz"
     autoupdate.asset.arm64 = ".*-aarch64-unknown-linux-musl.tar.gz"
+    autoupdate.asset.armhf = ".*-armv7-unknown-linux-musleabihf.tar.gz"
+    autoupdate.asset.i386 = ".*-i686-unknown-linux-musl.tar.gz"
 
     [resources.system_user]
 
